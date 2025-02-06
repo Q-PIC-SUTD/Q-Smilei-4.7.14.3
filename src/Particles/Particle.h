@@ -2,6 +2,7 @@
 #define PARTICLE_H
 
 #include <cstring>
+#include <cstdint>
 #include <iostream>
 #include <vector>
 
