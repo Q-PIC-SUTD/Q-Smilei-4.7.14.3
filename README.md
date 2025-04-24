@@ -25,7 +25,6 @@ Customized:
 - particle pusher from prescribed oscillation amplitude and frequency. So far only oscillation along x at 0 phase (cos(wt)) is available
 
 - particle pusher for massless electrons ("massless", must set mass>0 still, else it will be assumed to be photon with no charge. Calculations involving mass are dummy (*m then /m), provide a constant velocity through V_const). So far only available for quasistatic case (no rotation in magnetic field)
-- Quasistatic solver (without Faraday equation) is available with keyword "quasistatic" in Main 
 - nSurf field (defined similar as Rho) added
 - Interpolator for nSurf (0 order) available only for 2D simulation without vectorization (momentum conserving)
 - Boris Pusher with nSurf available
